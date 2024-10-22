@@ -14,12 +14,15 @@
               <tr>
                 <th>Visit Date</th>
                 <th>Visit Time</th>
-                <th>Firstname</th>
-                <th>Surname</th>
+                <th>PatientFirstname</th>
+                <th>PatientSurname</th>
+                <th>DrFirstname</th>
+                <th>DrSurname</th>
+                <th>specialism</th>
               </tr>
             </thead>
             <tbody>
-              <?php include("visitListWithNames.php");?>
+              <?php include("visitList.php");?>
             </tbody>
           </table>
        </div>
